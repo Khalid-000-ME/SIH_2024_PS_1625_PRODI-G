@@ -1,0 +1,143 @@
+[
+    {
+        "context": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.", 
+        "question": "Where is the Eiffel Tower located?"
+    },
+    {
+        "context": "The Great Wall of China is a series of fortifications made of various materials.",
+        "question": "What is the Great Wall of China made of?"
+    },
+    {
+        "context": "Albert Einstein was a theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics.",
+        "question": "Who developed the theory of relativity?"
+    },
+    {
+        "context": "The Amazon Rainforest, also known as Amazonia, is a vast tropical rainforest in South America covering much of northwestern Brazil.",
+        "question": "Where is the Amazon Rainforest located?"
+    },
+    {
+        "context": "Mount Everest, the Earth's highest mountain, is located in the Mahalangur section of the Himalayas, between Nepal and China.",
+        "question": "Where is Mount Everest located?"
+    },
+    {
+        "context": "Marie Curie was the first woman to win a Nobel Prize and is famous for her work on radioactivity.",
+        "question": "Who was the first woman to win a Nobel Prize?"
+    },
+    {
+        "context": "The Great Barrier Reef is the world's largest coral reef system, located off the coast of Queensland, Australia.",
+        "question": "Where is the Great Barrier Reef located?"
+    },
+    {
+        "context": "Leonardo da Vinci was an Italian polymath of the Renaissance, known for his works such as the Mona Lisa and The Last Supper.",
+        "question": "Who painted the Mona Lisa?"
+    },
+    {
+        "context": "The Pacific Ocean is the largest and deepest of Earth's oceanic divisions, covering more than 63 million square miles.",
+        "question": "What is the largest ocean on Earth?"
+    },
+    {
+        "context": "The Industrial Revolution was a period of major industrialization that took place during the late 1700s and early 1800s.",
+        "question": "When did the Industrial Revolution take place?"
+    },
+    {
+        "context": "William Shakespeare was an English playwright, widely regarded as one of the greatest writers in the English language.",
+        "question": "Who is considered one of the greatest writers in the English language?"
+    },
+    {
+        "context": "The Wright brothers, Orville and Wilbur, are credited with inventing and building the world's first successful airplane.",
+        "question": "Who invented the first successful airplane?"
+    },
+    {
+        "context": "The Rosetta Stone is an ancient Egyptian artifact that helped scholars understand Egyptian hieroglyphs.",
+        "question": "What is the significance of the Rosetta Stone?"
+    },
+    {
+        "context": "The Statue of Liberty was a gift from France to the United States, symbolizing freedom and democracy.",
+        "question": "What does the Statue of Liberty symbolize?"
+    },
+    {
+        "context": "Isaac Newton formulated the laws of motion and universal gravitation, which laid the foundations for classical mechanics.",
+        "question": "Who formulated the laws of motion?"
+    },
+    {
+        "context": "The Mona Lisa is a portrait painting by Leonardo da Vinci, considered one of the most famous paintings in the world.",
+        "question": "Who painted the Mona Lisa?"
+    },
+    {
+        "context": "Pluto was reclassified from a planet to a dwarf planet in 2006 by the International Astronomical Union.",
+        "question": "What happened to Pluto in 2006?"
+    },
+    {
+        "context": "The Suez Canal is a man-made waterway in Egypt, connecting the Mediterranean Sea to the Red Sea, and significantly shortening the maritime route between Europe and Asia.",
+        "question": "What is the purpose of the Suez Canal?"
+    },
+    {
+        "context": "Nelson Mandela was a South African anti-apartheid revolutionary who served as President of South Africa from 1994 to 1999.",
+        "question": "Who was the first black president of South Africa?"
+    },
+    {
+        "context": "The Colosseum is an ancient amphitheater in Rome, Italy, known for hosting gladiatorial contests and public spectacles in ancient times.",
+        "question": "What was the Colosseum used for in ancient Rome?"
+    },
+    {
+        "context": "The Great Wall of China is a series of fortifications that were built to protect Chinese states against invasions from the north.",
+        "question": "Why was the Great Wall of China built?"
+    },
+    {
+        "context": "Mahatma Gandhi was a leader of the Indian independence movement against British rule, known for his philosophy of nonviolent resistance.",
+        "question": "What philosophy is Mahatma Gandhi known for?"
+    },
+    {
+        "context": "The Leaning Tower of Pisa is a freestanding bell tower in Pisa, Italy, famous for its unintended tilt.",
+        "question": "What is the Leaning Tower of Pisa famous for?"
+    },
+    {
+        "context": "The Renaissance was a period in European history marked by a cultural revival and the rediscovery of classical philosophy, literature, and art.",
+        "question": "What was the Renaissance known for?"
+    },
+    {
+        "context": "The Moon landing was a historic event in 1969 when NASA's Apollo 11 mission successfully landed the first humans on the Moon.",
+        "question": "What historic event took place in 1969 involving NASA's Apollo 11?"
+    },
+    {
+        "context": "The Taj Mahal is a white marble mausoleum in Agra, India, built by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal.",
+        "question": "Why was the Taj Mahal built?"
+    },
+    {
+        "context": "The American Civil War was a conflict between the Northern and Southern states of the U.S., primarily over the issues of slavery and states' rights.",
+        "question": "What were the main issues behind the American Civil War?"
+    },
+    {
+        "context": "The Hubble Space Telescope, launched in 1990, has provided stunning images and invaluable data on the universe's distant galaxies and stars.",
+        "question": "What is the purpose of the Hubble Space Telescope?"
+    },
+    {
+        "context": "The Roman Empire was one of the largest empires in history, spanning across Europe, Asia, and Africa at its peak.",
+        "question": "Which regions did the Roman Empire span across?"
+    },
+    {
+        "context": "Photosynthesis is the process by which green plants use sunlight to synthesize food from carbon dioxide and water.",
+        "question": "What process do green plants use to synthesize food?"
+    },
+    {
+        "context": "The Mariana Trench is the deepest part of the world's oceans, located in the western Pacific Ocean.",
+        "question": "Where is the Mariana Trench located?"
+    },
+    {
+        "context": "Charles Darwin is best known for his contributions to the science of evolution, particularly his theory of natural selection.",
+        "question": "Who is known for the theory of natural selection?"
+    },
+    {
+        "context": "The Pyramids of Giza are ancient pyramid structures located in Egypt, and are considered one of the Seven Wonders of the Ancient World.",
+        "question": "Where are the Pyramids of Giza located?"
+    },
+    {
+        "context": "The French Revolution was a period of social and political upheaval in France that lasted from 1789 until 1799.",
+        "question": "When did the French Revolution take place?"
+    },
+    {
+        "context": "The Berlin Wall was a guarded concrete barrier that physically and ideologically divided Berlin from 1961 to 1989.",
+        "question": "What was the Berlin Wall?"
+    }
+
+]
