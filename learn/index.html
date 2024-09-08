@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Interface</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nv">
+        <a class="navbar-brand" href="#">Student Interface</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Notes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Quiz</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Chatbot</a>
+              </li>
+            </ul>
+          </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="row text-center">
+            <div class="col-md-3 mb-4">
+                <div class="icon btn btn-primary btn-lg" id="notes">Notes</div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="icon btn btn-secondary btn-lg" id="quiz">Quiz</div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="icon btn btn-success btn-lg" id="chatbot">Chatbot</div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="icon border border-dark p-3" id="output">Output Goes Here...</div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
