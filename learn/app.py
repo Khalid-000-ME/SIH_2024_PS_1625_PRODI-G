@@ -8,7 +8,7 @@ CORS(app)
 @app.route('/run-python-script')
 def run_python_script():
     print("\nRoute accessed\n")
-    result = subprocess.run(['python', r'E:\sih2024\chatbot\learn\script.py'], capture_output=True, text=True)
+    result = subprocess.run(['python', 'script.py'], capture_output=True, text=True)
     return jsonify({'output': result.stdout.strip()})
 
 if __name__ == "__main__":
