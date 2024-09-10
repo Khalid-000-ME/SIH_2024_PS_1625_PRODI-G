@@ -1,0 +1,65 @@
+/* General Styling */
+body {
+    font-family: 'Montserrat','Arial', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    background: #f5f7fa;
+}
+
+/* Navbar */
+.navbar {
+    background-color: black;
+    font-weight: 700;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+.navbar-nav .nav-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 60vh;
+    background: linear-gradient(120deg, #1c42fd, #9862fc);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+/* Features Section */
+.features .feature-card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.features .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.features h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.features p {
+    color: #777;
+    font-size: 1rem;
+}
