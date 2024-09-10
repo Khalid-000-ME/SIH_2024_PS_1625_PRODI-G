@@ -3,26 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>Student Chatbot</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-        }
-        .chat-box {
-            border: 1px solid #ddd;
-            padding: 10px;
-            height: 400px;
-            overflow-y: auto;
-            margin-bottom: 20px;
-        }
-        .input-box {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ddd;
-            font-size: 16px;
-        }
-    </style>
 </head>
 <body>
     <h2>Student Chatbot</h2>
@@ -30,29 +13,9 @@
         <!-- Chat messages will appear here -->
     </div>
     <input type="text" id="user-input" class="input-box" placeholder="Type your question here...">
-    <button onclick="sendMessage()">Send</button>
-
-    <script>
-        function sendMessage() {
-            const userInput = document.getElementById('user-input').value;
-            document.getElementById('chat-box').innerHTML += `<p><strong>You:</strong> ${userInput}</p>`;
-            document.getElementById('user-input').value = '';
-
-            // Send the message to the backend
-            fetch('http://127.0.0.1:5000/chatbot', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({ message: userInput }),
-            })
-            .then(response => response.json())
-            .then(data => {
-                const botResponse = data.response;
-                document.getElementById('chat-box').innerHTML += `<p><strong>Bot:</strong> ${botResponse}</p>`;
-                document.getElementById('chat-box').scrollTop = document.getElementById('chat-box').scrollHeight;
-            });
-        }
-    </script>
+    <button class="btn btn-primary" id="send-button">Send</button>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
